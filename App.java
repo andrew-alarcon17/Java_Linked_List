@@ -18,13 +18,8 @@ public class App {
         for (int i = 0; i < list.size(); ++i)
             System.out.print(list.get(i) + " ");
 
-
-
-
-
         System.out.println();
         System.out.println();
-
 
         Stack<Integer> stack = new LinkedList<>();
         stack.push(3);             // [3]
@@ -36,7 +31,5 @@ public class App {
         stack.pop();               // [5, 3]
         System.out.println(stack);
         System.out.println(((LinkedList<Integer>) stack).contains(4));
-
-
     }
 }
